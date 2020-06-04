@@ -39,6 +39,7 @@ console.log(carTwo.getYears()); // 22
 # Python Class
 from datetime import datetime
 
+```
 class Car():
     def __init__(self, model, salePrice, color,yearBuilt):
         self.model = model
@@ -60,7 +61,7 @@ print(carOne.color)  # "yellow"
 print(carTwo.salePrice) # "22000"
 print(carOne.getYears()) # 10
 print(carTwo.getYears()) # 22
-
+```
 ***
 # Super Bowl Get HTML 
 ***
