@@ -9,6 +9,7 @@ similarities and differences it is helping me understand Python better and under
 For example, lets take a look at a simple JS constructor and Python class. One thing to note is with Python we could replace `self` with any word.
 However, it is common Python convention to use `self`.  
 
+```
 // JavaScript Constructor
 function Car(model, salePrice, color, yearBuilt){
     this.model = model;
@@ -33,7 +34,7 @@ console.log(carOne.color);  // "yellow"
 console.log(carTwo.salePrice); // "22000"
 console.log(carOne.getYears()); // 10
 console.log(carTwo.getYears()); // 22
-
+```
 
 # Python Class
 from datetime import datetime
